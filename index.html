@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Task Name & ADD the task on the list -->
+        <h1>Task List, February</h1>
+        <form id="new-task-form">
+            <input type="text" id="new-task-input" placeholder="What's you next plan?">
+            <!-- <button id="submit">+</button> -->
+            <input type="submit" id="new-task-submit" value="+">
+        </form>
+    </header>
+
+    <!-- The task lists section -->
+    <main>
+        <section class="task-list-todo">
+            <h2>Tasks</h2>
+            <ul id="todoList">
+                <!-- <li>task 1 <span>Edit</span> <span>Delete</span> </li> -->
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
